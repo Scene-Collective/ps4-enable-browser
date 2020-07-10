@@ -55,6 +55,6 @@
 #define K501_REG_MGR_SET_INT       0x004F8940
 #define K503_REG_MGR_SET_INT       0x004F8CD0
 #define K505_REG_MGR_SET_INT       0x004F8D10
-#define K672_REG_MGR_SET_INT       0x0
+#define K672_REG_MGR_SET_INT       0x005077D0
 
 #endif
