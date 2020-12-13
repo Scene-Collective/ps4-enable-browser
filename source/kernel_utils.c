@@ -324,6 +324,8 @@ int kpayload_jailbreak(struct thread *td, struct kpayload_jailbreak_args *args) 
     *(void **)(&sceRegMgrSetInt) = &kernel_ptr[K505_REG_MGR_SET_INT];
   } else if (fw_version == 0x550) {
     *(void **)(&sceRegMgrSetInt) = &kernel_ptr[K550_REG_MGR_SET_INT];
+  } else if (fw_version == 0x553) {
+    *(void **)(&sceRegMgrSetInt) = &kernel_ptr[K553_REG_MGR_SET_INT];
   } else if (fw_version == 0x555 || fw_version == 0x556) {
     *(void **)(&sceRegMgrSetInt) = &kernel_ptr[K555_REG_MGR_SET_INT];
   } else if (fw_version == 0x600 || fw_version == 0x602) {
