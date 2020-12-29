@@ -3,7 +3,6 @@ Enable Browser
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b26e3e03bbb44e98874ef2dd7a92f6b2)](https://www.codacy.com/gh/Scene-Collective/ps4-enable-browser/dashboard)
 
 ## Synopsis
-
 Permenently activates the browser without needing to sign into PSN.
 
 For the payloads built with the most recent firmware supported visit [this repo].
